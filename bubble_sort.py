@@ -1,10 +1,10 @@
 
 def bubbleSort(lst):
     '''
-    1. One the first iteration, compare all the elements (n). For the subsequent runs, compare (n-1) (n-2) and so on.
+    1. On the first iteration, compare all the elements (n). For the subsequent runs, compare (n-1) (n-2) and so on.
     2. Compare each element (lst[i]) with its right side (lst[i + 1]) neighbour.
     3. Swap the smallest element to the left.
-    4. Repeating steps 1-3 until the whole list is covered.
+    4. Repeat steps 1-3 until the whole list is covered.
 
     * Time complexity: The worst-case runtime is O(n^2)
     * Space complexity: Space is constant because I perform the swaps in place so O(1)

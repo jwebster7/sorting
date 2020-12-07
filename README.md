@@ -1,3 +1,3 @@
 # Sorting Algorithms
 
-I implemented the most common sorting algorithms in Python.
+I implemented the most common sorting algorithms using Python.

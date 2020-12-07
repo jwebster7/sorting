@@ -36,6 +36,9 @@ def quickSort(lst, low, high):
       4b. Otherwise, swap the left element and right element.
     5. When left >= right, swap the pivot with either the left or right pointer.
     6. Repeat steps 1 - 5 on the left half and the right half of the list till the entire list is sorted.
+
+    * Time complexity: Worst case is O(n^2), but the average case is Θ(nlog(n))
+    * Space complexity: O(log(n))
     '''
     if low < high:
         pivot = partition(lst, low, high)

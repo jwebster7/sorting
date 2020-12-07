@@ -8,6 +8,9 @@ def selectionSort(lst):
       3b. Otherwise choose the smaller element, set it as the new minimum, and repeat step 3.
     4. Once one iteration through the list is completed, swap the minimum element with the first element of the list.
     5. Assume the second element in the list to be the smallest and repeat until all the elements in the list are sorted.
+
+    * Time complexity: Worst case run-time is O(n^2).
+    * Space complexity: Worst case is O(1) because I modify the array in place.
     '''
     n = len(lst)
     i = 0
